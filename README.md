@@ -18,7 +18,7 @@ After generating the output files the program loops through the input file line 
 Whenever a line is found to have the message identifier, the time stamp, wheel angle data, and axle location data are parsed and written into strings.
 The position of this data is the same every time so the position of where to grab the data is hard coded.
 It is important to note that the angle data is written in two bytes with the higher order data being in the 2nd byte and the lower order data in the first byte.
-Next the angle data is converted from a string in hexidecimal to an integer value usingthe stoi function using base 16.
+Next the angle data is converted from a string in hexidecimal to an integer value using the stoi function using base 16.
 Next the integer angle data is converted to degrees using the 1/256 deg/bit scaling and the -125 degree offset.
 Finally we use an if statement to compare the axle location data with the known wheel positions to tell which wheel the data is for and then the angle data and time stamp are written into the corresponding .csv file.
 
