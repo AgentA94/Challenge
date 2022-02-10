@@ -18,7 +18,7 @@ int main()
     float convertedAngleData;
     
     //file streams for input file and the four output files.
-	ifstream dataCAN;
+    ifstream dataCAN;
     ofstream angleDataFL, angleDataFR, angleDataBL, angleDataBR;
     
     
