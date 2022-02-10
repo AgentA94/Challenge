@@ -1,6 +1,9 @@
+#Import the pandas and plotly libraries for creating the plots
 import pandas as pd
 import plotly.express as px
 
+#Read the generated csv files and plot the data. 
+#There is one plot for each wheel.
 data = pd.read_csv('FrontLeftAngleData.csv')
 fig = px.line(data, x = 'time', y = 'angle', title = 'Front Left Wheel Angle')
 fig.show()
