@@ -32,6 +32,7 @@ Plotly creates these scripts in browser windows.
 
 
 C++ file setup and compilation:
+
 I used the TDM-gcc windows C++ compiler for windows to compile my source file.
 Use the following link and choose the MinGW-w64 based compiler.
 The link to download this compiler is here: https://jmeubank.github.io/tdm-gcc/
@@ -41,6 +42,7 @@ When directory is set up correctly, use the following command to compile the fil
 This will create an executable from the code and it will be named challenge.exe
 
 Python setup and compilation:
+
 I used the latest version of python3 which is python3.10.2 for the python script.
 Use the following link to download the windows64 installer for the latest python version.
 https://www.python.org/downloads/release/python-3102/
@@ -50,6 +52,7 @@ Once pip is installed the plotly and pandas packages need to be installed using 
 The commands are pip install pandas and pip install plotly==5.6.0.
 
 Execution of the code:
+
 In the command prompt change the directory to the location of the challenge.exe file. 
 When in the correct location in the command prompt enter the name of the executable in this case challenge.
 You will then be prompted to enter the full file path of the .asc CAN log file.
