@@ -49,7 +49,7 @@ https://www.python.org/downloads/release/python-3102/
 After installing the latest version of python you may need to add python to the path in your environment variables.
 If your install did not come with pip you can install it using the following command int the command window "python get-pip.py".
 Once pip is installed the plotly and pandas packages need to be installed using pip.
-The commands are "pip install pandas" and "pip install plotly==5.6.0".
+The following commands need to be inputted in the command window "pip install pandas" and "pip install plotly==5.6.0".
 
 Execution of the code:
 
