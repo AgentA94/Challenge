@@ -53,10 +53,11 @@ The commands are "pip install pandas" and "pip install plotly==5.6.0".
 
 Execution of the code:
 
-In the command prompt change the directory to the location of the challenge.exe file. 
+In the command prompt change the directory using the cd to the location of the challenge.exe file.
+The directory can be copied and pasted from the file explorer into the command window.
 When in the correct location in the command prompt enter the name of the executable in this case challenge.
 You will then be prompted to enter the full file path of the .asc CAN log file.
 Enter the full path of the file and press enter.
 The code will execute and the four .csv files will be outputted. 
-After the .csv files are generated, in the command prompt input dataPlot.py to run the plotting script.
+After the .csv files are generated, in the command prompt input dataPlot.py (make sure you are in the right directory) to run the plotting script.
 After the plotting script is run four graphs will open in the browser with the data for each wheel.
