@@ -38,7 +38,7 @@ Use the following link and choose the MinGW-w64 based compiler.
 The link to download this compiler is here: https://jmeubank.github.io/tdm-gcc/
 The installer automatically sets up the path for the compiler.
 When ready to compile the source file, use the command prompt and enter the cd command and change the path to the location of the source file.
-When directory is set up correctly, use the following command to compile the file g++ source.cpp -o challenge.
+When directory is set up correctly, use the following command to compile the file "g++ source.cpp -o challenge".
 This will create an executable from the code and it will be named challenge.exe
 
 Python setup and compilation:
@@ -46,10 +46,10 @@ Python setup and compilation:
 I used the latest version of python3 which is python3.10.2 for the python script.
 Use the following link to download the windows64 installer for the latest python version.
 https://www.python.org/downloads/release/python-3102/
-After installing the latest version of python you may need to add the install of python to the path in your environment variables.
-If your install did not come with pip you can install it using the following command int the command window python get-pip.py.
+After installing the latest version of python you may need to add python to the path in your environment variables.
+If your install did not come with pip you can install it using the following command int the command window "python get-pip.py".
 Once pip is installed the plotly and pandas packages need to be installed using pip.
-The commands are pip install pandas and pip install plotly==5.6.0.
+The commands are "pip install pandas" and "pip install plotly==5.6.0".
 
 Execution of the code:
 
